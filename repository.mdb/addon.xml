@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.mdb" version="1.0.0" name="MDB Repository" provider-name="hurakmichal-glitch">
+  <extension point="xbmc.addon.repository" name="MDB Repository">
+    <dir minversion="2.6.0">
+      <info compressed="false">https://raw.githubusercontent.com/hurakmichal-glitch/MDB/main/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/hurakmichal-glitch/MDB/main/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/hurakmichal-glitch/MDB/main/zips</datadir>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="sk">MDB Repository - TV, Filmy a Seriály</summary>
+    <description lang="sk">Repository s kolekciou addonov pre streaming obsahu</description>
+    <disclaimer lang="sk">Použitie na vlastné riziko</disclaimer>
+    <language>sk</language>
+    <platform>all</platform>
+    <license>MIT</license>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
