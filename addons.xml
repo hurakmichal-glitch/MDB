@@ -7,13 +7,6 @@
     <extension point="xbmc.python.pluginsource" library="default.py">
       <provides>video</provides>
     </extension>
-    <extension point="xbmc.addon.repository" name="MDB">
-      <dir minversion="2.6.0">
-        <info compressed="false">https://raw.githubusercontent.com/hurakmichal-glitch/MDB/main/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/hurakmichal-glitch/MDB/main/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/hurakmichal-glitch/MDB/main/zips</datadir>
-      </dir>
-    </extension>
     <extension point="xbmc.addon.metadata">
       <summary lang="sk">Eagle BLVCK Addon</summary>
       <description lang="sk">Addon pre Eagle BLVCK obsah</description>
