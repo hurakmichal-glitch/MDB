@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-  <addon id="plugin.video.mdb.tv" version="1.0.0" name="MDB TV" provider-name="hurakmichal-glitch">
+  <addon id="plugin.video.eagle.blvck" version="1.0.0" name="Eagle BLVCK" provider-name="hurakmichal-glitch">
     <requires>
       <import addon="xbmc.python" version="3.0.0"/>
     </requires>
@@ -8,21 +8,18 @@
       <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
-      <summary lang="sk">TV stanice a programy</summary>
-      <description lang="sk">Addon pre sledovanie TV staníc a programov</description>
+      <summary lang="sk">Eagle BLVCK Addon</summary>
+      <description lang="sk">Addon pre Eagle BLVCK obsah</description>
       <language>sk</language>
       <platform>all</platform>
       <license>MIT</license>
-      <forum></forum>
-      <website></website>
-      <source></source>
       <assets>
         <icon>icon.png</icon>
         <fanart>fanart.jpg</fanart>
       </assets>
     </extension>
   </addon>
-  <addon id="plugin.video.mdb.filmy" version="1.0.0" name="MDB Filmy" provider-name="hurakmichal-glitch">
+  <addon id="plugin.video.freeview.sk" version="1.2.4" name="Freeview SK" provider-name="hurakmichal-glitch">
     <requires>
       <import addon="xbmc.python" version="3.0.0"/>
     </requires>
@@ -30,21 +27,18 @@
       <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
-      <summary lang="sk">Kolekcia filmov</summary>
-      <description lang="sk">Addon pre sledovanie filmov</description>
+      <summary lang="sk">Freeview SK</summary>
+      <description lang="sk">Bezplatný obsah zo Slovenska</description>
       <language>sk</language>
       <platform>all</platform>
       <license>MIT</license>
-      <forum></forum>
-      <website></website>
-      <source></source>
       <assets>
         <icon>icon.png</icon>
         <fanart>fanart.jpg</fanart>
       </assets>
     </extension>
   </addon>
-  <addon id="plugin.video.mdb.serialy" version="1.0.0" name="MDB Seriály" provider-name="hurakmichal-glitch">
+  <addon id="plugin.video.prehrajto" version="1.0.0" name="Prehrajto" provider-name="hurakmichal-glitch">
     <requires>
       <import addon="xbmc.python" version="3.0.0"/>
     </requires>
@@ -52,14 +46,49 @@
       <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
-      <summary lang="sk">Kolekcia seriálov</summary>
-      <description lang="sk">Addon pre sledovanie TV seriálov</description>
+      <summary lang="sk">Prehrajto</summary>
+      <description lang="sk">Streaming obsah z Prehrajto</description>
       <language>sk</language>
       <platform>all</platform>
       <license>MIT</license>
-      <forum></forum>
-      <website></website>
-      <source></source>
+      <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+      </assets>
+    </extension>
+  </addon>
+  <addon id="plugin.video.sktonline" version="1.0.0" name="SKT Online" provider-name="hurakmichal-glitch">
+    <requires>
+      <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+      <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+      <summary lang="sk">SKT Online</summary>
+      <description lang="sk">SKT Online streaming</description>
+      <language>sk</language>
+      <platform>all</platform>
+      <license>MIT</license>
+      <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+      </assets>
+    </extension>
+  </addon>
+  <addon id="plugin.video.stream-cinema" version="1.0.0" name="Stream Cinema" provider-name="hurakmichal-glitch">
+    <requires>
+      <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+      <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+      <summary lang="sk">Stream Cinema</summary>
+      <description lang="sk">Filmový streaming obsah</description>
+      <language>sk</language>
+      <platform>all</platform>
+      <license>MIT</license>
       <assets>
         <icon>icon.png</icon>
         <fanart>fanart.jpg</fanart>
